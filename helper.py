@@ -15,6 +15,7 @@ if len(sys.argv) < 2 or len(sys.argv) > 3:
     exit(1)
 
 
+
 class Site:
 
     def __init__(self, name: str, group: str, url: str, inclusion: list, exclusion: list, dedup: bool):
