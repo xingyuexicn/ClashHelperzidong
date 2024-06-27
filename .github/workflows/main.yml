@@ -16,5 +16,6 @@ jobs:
         uses: exuanbo/actions-deploy-gist@v1
         with:
           token: ${{ secrets.TOKEN }}
+          gist_id: 
+          file_path: xingyuexicn/897e8ad1c4a4191893043cfcbd44417d
           file_type: binary
-
